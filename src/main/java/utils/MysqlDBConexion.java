@@ -11,8 +11,8 @@ public class MysqlDBConexion {
         	Class.forName("com.mysql.cj.jdbc.Driver");
             cn = DriverManager.getConnection(
             		"jdbc:mysql://localhost:3306/instituto?useSSL=false&serverTimezone=UTC",
-                "masked",
-                "masked"
+                "mario1",
+                "mario2"
             );
         } catch (Exception e) {
             e.printStackTrace();
